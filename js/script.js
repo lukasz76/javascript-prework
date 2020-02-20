@@ -27,6 +27,21 @@ if (playerInput == '1') {
   playerMove = 'nozyce';
 }
 
+if (computerMove == 'kamień' && playerMove == 'papier') {
+    printMessage('Ty wygrywasz!');
+  } else if (computerMove == 'papier' && playerMove == 'nozyce') {
+    printMessage('Ty wygrywasz!');
+  } else if (computerMove == 'nozyce' && playerMove == 'kamien') {
+    printMessage('Ty wygrywasz!');
+  
+  } else if (computerMove == playerMove) {
+    printMessage('Remis!');
+  
+  }
+  
+  
+  printMessage('Twój ruch to: ' + playerMove);
+
 
 
 
