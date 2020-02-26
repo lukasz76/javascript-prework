@@ -58,10 +58,3 @@ document.getElementById('play-scissors').addEventListener('click',function(){
     playGame(3)
 })
 
-
-
-
-
-
-
-
